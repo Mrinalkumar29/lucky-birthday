@@ -1,0 +1,74 @@
+
+
+:root{
+    --bg-color: #4169E1	;
+    --wd-color: #FFFF00	;
+}
+
+body{
+    color: #4169E1;
+    background-color: #FFFF00	;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    font-size: large;
+}
+
+.box-img{
+    max-width: 420px;
+    margin: auto;
+    display: block;
+    
+}
+
+.about{
+    color: #4169E1;
+    padding: 1rem;
+    display: block;
+    max-width: 450px;
+    margin: auto;
+}
+
+input,label {
+    display: block;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    color: red;
+    
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background-color: var(--wd-color);
+    border-color: var(--bg-color);
+    color:var(--bg-color);
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+}
+
+#check-number:hover{
+    background-color: var(--bg-color);
+    color: var(--wd-color);
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    
+}
